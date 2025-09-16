@@ -1,13 +1,13 @@
 function indexOfIgnoreCase(s1, s2) {
-  // write your code here
-	 if (subStr.length === 0) return 0;
+  // Edge case: if s2 is empty, return 0
+  if (s2.length === 0) return 0;
 
   // Convert both to lowercase
-  let lowerStr = str.toLowerCase();
-  let lowerSub = subStr.toLowerCase();
+  let lowerStr = s1.toLowerCase();
+  let lowerSub = s2.toLowerCase();
 
-	return lowerStr.indexOf(lowerSub);
-	
+  // Find index
+  return lowerStr.indexOf(lowerSub);
 }
 
 // Please do not change the code below
