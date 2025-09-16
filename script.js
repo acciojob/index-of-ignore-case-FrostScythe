@@ -6,7 +6,8 @@ function indexOfIgnoreCase(s1, s2) {
   let lowerStr = str.toLowerCase();
   let lowerSub = subStr.toLowerCase();
 
-	lowerStr.indexOf(lowerSub);
+	return lowerStr.indexOf(lowerSub);
+	
 }
 
 // Please do not change the code below
